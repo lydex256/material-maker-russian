@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: rodzilla@free.fr\n"
 "POT-Creation-Date: 2022-06-26 07:49\n"
-"PO-Revision-Date: 2025-06-17 18:58+0300\n"
+"PO-Revision-Date: 2025-06-17 19:32+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -891,6 +891,7 @@ msgstr "Настроить"
 msgid "Rotate"
 msgstr "Повернуть"
 
+# Или "Выкл."
 #: Menu in res:///material_maker/panels/preview_3d/preview_3d.gd
 #, fuzzy
 msgid "Off"
