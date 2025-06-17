@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: rodzilla@free.fr\n"
 "POT-Creation-Date: 2022-06-26 07:49\n"
-"PO-Revision-Date: 2025-06-17 19:32+0300\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2025-06-17 21:44+0300\n"
+"Last-Translator: Lydex\n"
 "Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "Новый материал"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "New paint project"
-msgstr ""
+msgstr "Новый проект покраски"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Load"
@@ -48,9 +48,11 @@ msgstr "Загрузить"
 msgid "Load material from website"
 msgstr "Загрузить материал с сайта"
 
+# Или недавнее
 #: Menu in res:///material_maker/main_window.gd
+#, fuzzy
 msgid "Load recent"
-msgstr ""
+msgstr "Загрузить недавние"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Save"
@@ -112,7 +114,7 @@ msgstr "Выделить все"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Select None"
-msgstr ""
+msgstr "Отменить выделение"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Invert Selection"
@@ -124,7 +126,7 @@ msgstr "Выбрать источники"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Select Targets"
-msgstr ""
+msgstr "Выделить цели"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Load Selection"
@@ -176,7 +178,7 @@ msgstr "Создать группу"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Make selected nodes editable"
-msgstr ""
+msgstr "Сделать выделенные узлы редактируемыми"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Add selected node to library"
@@ -192,15 +194,15 @@ msgstr "Сделать скриншот текущего холста"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Paint project settings"
-msgstr ""
+msgstr "Настройки проекта покраски"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Set painting environment"
-msgstr ""
+msgstr "Выбрать покрасочное окружение"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Environment editor"
-msgstr ""
+msgstr "Редактор окружения"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Help"
@@ -208,11 +210,11 @@ msgstr "Помощь"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "User manual"
-msgstr ""
+msgstr "Руководство"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Show selected library item documentation"
-msgstr ""
+msgstr "Показать документацию выбранного элемента библиотеки"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Report a bug"
@@ -248,11 +250,13 @@ msgstr ""
 
 #: Panel name in res:///material_maker/main_window_layout.gd:15
 msgid "Hierarchy"
-msgstr ""
+msgstr "Структура"
 
+# Или "Ссылка" (по переводчику)
 #: Panel name in res:///material_maker/main_window_layout.gd:16
+#, fuzzy
 msgid "Reference"
-msgstr ""
+msgstr "Образец"
 
 #: Panel name in res:///material_maker/main_window_layout.gd:17
 msgid "Brushes"
@@ -458,23 +462,23 @@ msgstr ""
 #: res://addons/material_maker/nodes/weave2.mmg
 #: res://material_maker/library/base.json
 msgid "Output"
-msgstr ""
+msgstr "Вывод"
 
 #: res:///material_maker/nodes/base.gd:154
 msgid "Unlock seed"
-msgstr ""
+msgstr "Разблокировать генерацию"
 
 #: res:///material_maker/nodes/base.gd:154
 msgid "Lock seed"
-msgstr ""
+msgstr "Заблокировать генерацию"
 
 #: res:///material_maker/nodes/base.gd:156
 msgid "Copy seed"
-msgstr ""
+msgstr "Скопировать генерацию"
 
 #: res:///material_maker/nodes/base.gd:158
 msgid "Paste seed"
-msgstr ""
+msgstr "Вставить генерацию"
 
 #: res:///material_maker/nodes/base.gd:171
 msgid "Propagate changes"
@@ -483,6 +487,8 @@ msgstr ""
 #: res:///material_maker/nodes/base.gd:196
 msgid "Change seed (left mouse button) / Show seed menu (right mouse button)"
 msgstr ""
+"Изменить генерацию (левая кнопка мыши) / Показать меню генерации (правая "
+"кнопка мыши)"
 
 #: res:///material_maker/nodes/debug/debug.tscn:26
 msgid "Show shader"
@@ -494,7 +500,7 @@ msgstr ""
 
 #: res:///material_maker/nodes/debug/debug_popup.tscn:51
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "Скопировать в буфер обмена"
 
 #: res:///material_maker/nodes/ios/port.tscn:67
 #: res:///material_maker/windows/node_editor/input.tscn:79
@@ -626,17 +632,18 @@ msgid "Click to enter a path"
 msgstr ""
 
 #: res:///material_maker/panels/library/library.tscn:31
+#, fuzzy
 msgid "Manage Libraries"
-msgstr "Посмотреть библиотеки"
+msgstr "Управление библиотеками"
 
 #: res:///material_maker/panels/library/library.tscn:52
 #: res:///material_maker/windows/load_from_website/load_from_website.tscn:34
 msgid "Filter:"
-msgstr ""
+msgstr "Фильтр:"
 
 #: res:///material_maker/panels/paint/paint.tscn:392
 msgid "Brush"
-msgstr ""
+msgstr "Кисть"
 
 #: res:///material_maker/panels/paint/paint.tscn:405
 msgid "Jitter"
@@ -2262,13 +2269,13 @@ msgstr ""
 #: res://addons/material_maker/nodes/normal_blend.mmg
 #: res://addons/material_maker/nodes/tex3d_blend.mmg
 msgid "Source1"
-msgstr ""
+msgstr "Источник1"
 
 #: res://addons/material_maker/nodes/blend.mmg
 #: res://addons/material_maker/nodes/normal_blend.mmg
 #: res://addons/material_maker/nodes/tex3d_blend.mmg
 msgid "Foreground"
-msgstr ""
+msgstr "Передний план"
 
 #: res://addons/material_maker/nodes/blend.mmg
 #: res://addons/material_maker/nodes/normal_blend.mmg
@@ -2280,13 +2287,13 @@ msgstr ""
 #: res://addons/material_maker/nodes/normal_blend.mmg
 #: res://addons/material_maker/nodes/tex3d_blend.mmg
 msgid "Source2"
-msgstr ""
+msgstr "Источник2"
 
 #: res://addons/material_maker/nodes/blend.mmg
 #: res://addons/material_maker/nodes/normal_blend.mmg
 #: res://addons/material_maker/nodes/tex3d_blend.mmg
 msgid "Background"
-msgstr ""
+msgstr "Задний план"
 
 #: res://addons/material_maker/nodes/blend.mmg
 #: res://addons/material_maker/nodes/normal_blend.mmg
@@ -2308,7 +2315,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/sdf3d_box.mmg
 #: res://material_maker/library/base.json
 msgid "Box"
-msgstr ""
+msgstr "Коробка"
 
 #: res://addons/material_maker/nodes/box.mmg
 #: res://addons/material_maker/nodes/magnify.mmg
@@ -2838,7 +2845,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/brightness_contrast.mmg
 #: res://addons/material_maker/nodes/tones_range.mmg
 msgid "Contrast"
-msgstr ""
+msgstr "Контраст"
 
 #: res://addons/material_maker/nodes/brightness_contrast.mmg
 msgid "The Contrast adjustment"
@@ -3263,7 +3270,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/variations_tex3d.mmg
 #: res://material_maker/library/base.json
 msgid "Variations"
-msgstr ""
+msgstr "Вариации"
 
 #: res://addons/material_maker/nodes/circle_splatter.mmg
 #: res://addons/material_maker/nodes/circle_splatter_color.mmg
@@ -3381,7 +3388,7 @@ msgstr ""
 #: res://material_maker/library/base.json
 #: res://material_maker/library/base_brushes.json
 msgid "Gradient"
-msgstr ""
+msgstr "Градиент"
 
 #: res://addons/material_maker/nodes/circular_gradient.mmg
 #: res://addons/material_maker/nodes/gradient.mmg
@@ -5144,11 +5151,11 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/material_raymarching.mmg
 msgid "metallic"
-msgstr ""
+msgstr "металличность"
 
 #: res://addons/material_maker/nodes/material_raymarching.mmg
 msgid "roughness"
-msgstr ""
+msgstr "шероховатость"
 
 #: res://addons/material_maker/nodes/material_tesselated.mmg
 msgid "Static PBR Material Displacement"
@@ -5504,7 +5511,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/multi_warp.mmg
 msgid "Grid size"
-msgstr ""
+msgstr "Размер сетки"
 
 #: res://addons/material_maker/nodes/multi_warp.mmg
 msgid "The resolution of the operation"
@@ -5549,11 +5556,11 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/mwf_create_map.mmg
 msgid "Create Map"
-msgstr ""
+msgstr "Создать карту"
 
 #: res://addons/material_maker/nodes/mwf_create_map.mmg
 msgid "Create map"
-msgstr ""
+msgstr "Создать карту"
 
 #: res://addons/material_maker/nodes/mwf_create_map.mmg
 msgid ""
@@ -5597,7 +5604,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/mwf_map.mmg
 msgid "map"
-msgstr ""
+msgstr "карта"
 
 #: res://addons/material_maker/nodes/mwf_map.mmg
 msgid "The input workflow map"
@@ -5728,12 +5735,12 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/mwf_mix.mmg
 msgid "Normal 1"
-msgstr ""
+msgstr "Нормаль 1"
 
 #: res://addons/material_maker/nodes/mwf_mix.mmg
 #: res://addons/material_maker/nodes/mwf_mix_smooth.mmg
 msgid "Normal1"
-msgstr ""
+msgstr "Нормаль1"
 
 #: res://addons/material_maker/nodes/mwf_mix.mmg
 #: res://addons/material_maker/nodes/mwf_mix_smooth.mmg
@@ -5799,12 +5806,12 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/mwf_mix.mmg
 msgid "Normal 2"
-msgstr ""
+msgstr "Нормаль 2"
 
 #: res://addons/material_maker/nodes/mwf_mix.mmg
 #: res://addons/material_maker/nodes/mwf_mix_smooth.mmg
 msgid "Normal2"
-msgstr ""
+msgstr "Нормаль2"
 
 #: res://addons/material_maker/nodes/mwf_mix.mmg
 #: res://addons/material_maker/nodes/mwf_mix_smooth.mmg
@@ -5838,7 +5845,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/mwf_mix_maps.mmg
 msgid "Mix maps"
-msgstr ""
+msgstr "Смешать карты"
 
 #: res://addons/material_maker/nodes/mwf_mix_maps.mmg
 msgid "Mixes up to 4 workflow maps, to be used with the same base material"
@@ -6115,11 +6122,11 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/normal_map_convert.mmg
 msgid "From/To OpenGL"
-msgstr ""
+msgstr "Из/В OpenGL"
 
 #: res://addons/material_maker/nodes/normal_map_convert.mmg
 msgid "From/To DirectX"
-msgstr ""
+msgstr "Из/В DirectX"
 
 #: res://addons/material_maker/nodes/occlusion.mmg
 #: res://addons/material_maker/nodes/occlusion2.mmg
@@ -7102,7 +7109,7 @@ msgstr "Показывает капсулу"
 #: res://addons/material_maker/nodes/sdf3d_capsule2.mmg
 #: res://addons/material_maker/nodes/sdline2.mmg
 msgid "profile"
-msgstr ""
+msgstr "профиль"
 
 #: res://addons/material_maker/nodes/sdf3d_capsule2.mmg
 msgid ""
@@ -7161,8 +7168,9 @@ msgid "The radius of the cylinder"
 msgstr ""
 
 #: res://addons/material_maker/nodes/sdf3d_cylinder.mmg
+#, fuzzy
 msgid "Shows the cylinder"
-msgstr ""
+msgstr "Показывает цилиндр"
 
 #: res://addons/material_maker/nodes/sdf3d_ellipsoid.mmg
 msgid "Ellipsoid"
@@ -7185,8 +7193,9 @@ msgid "The size of the ellipsoid along the Z axis"
 msgstr ""
 
 #: res://addons/material_maker/nodes/sdf3d_ellipsoid.mmg
+#, fuzzy
 msgid "Shows the ellipsoid"
-msgstr ""
+msgstr "Показывает эллипсоид"
 
 #: res://addons/material_maker/nodes/sdf3d_elongation.mmg
 #: res://material_maker/library/base.json
