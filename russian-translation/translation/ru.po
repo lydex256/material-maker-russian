@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: rodzilla@free.fr\n"
 "POT-Creation-Date: 2022-06-26 07:49\n"
-"PO-Revision-Date: 2025-06-18 16:14+0300\n"
+"PO-Revision-Date: 2025-06-18 16:32+0300\n"
 "Last-Translator: Lydex\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -110,11 +110,11 @@ msgstr "Дублировать"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Select All"
-msgstr "Выделить все"
+msgstr "Выбрать все"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Select None"
-msgstr "Отменить выделение"
+msgstr "Снять выбор"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Invert Selection"
@@ -126,7 +126,7 @@ msgstr "Выбрать источники"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Select Targets"
-msgstr "Выделить цели"
+msgstr "Выбрать цели"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Load Selection"
@@ -556,6 +556,7 @@ msgstr ""
 msgid "OK"
 msgstr "ОК"
 
+# Или "Отмена"
 #: res:///material_maker/nodes/remote/named_parameter_dialog.tscn:136
 #: res:///material_maker/panels/library/create_lib_dialog.tscn:84
 #: res:///material_maker/panels/paint/paint_project_settings.tscn:128
@@ -571,6 +572,7 @@ msgstr "ОК"
 #: res:///material_maker/windows/node_editor/node_editor.tscn:271
 #: res:///material_maker/windows/preferences/preferences.tscn:438
 #: res:///material_maker/windows/sdf_builder/sdf_builder.tscn:121
+#, fuzzy
 msgid "Cancel"
 msgstr "Отменить"
 
@@ -703,7 +705,7 @@ msgstr ""
 #: res:///material_maker/panels/paint/paint.tscn:491
 #: res:///material_maker/panels/paint/paint.tscn:597
 msgid "Hardness"
-msgstr ""
+msgstr "Жесткость"
 
 #: res:///material_maker/panels/paint/paint.tscn:520
 #: res://addons/material_maker/nodes/fill_to_position.mmg
@@ -970,7 +972,7 @@ msgstr ""
 
 #: res:///material_maker/tools/painter/painter.gd:448
 msgid "Metallic/Roughness (current layer)"
-msgstr ""
+msgstr "Металличность/Шероховатость (текущий слой)"
 
 #: res:///material_maker/tools/painter/painter.gd:449
 msgid "Emission (current layer)"
@@ -978,7 +980,7 @@ msgstr ""
 
 #: res:///material_maker/tools/painter/painter.gd:450
 msgid "Normal (current layer)"
-msgstr ""
+msgstr "Нормаль (текущий слой)"
 
 #: res:///material_maker/tools/painter/painter.gd:451
 msgid "Depth/Occlusion (current layer)"
@@ -1174,7 +1176,7 @@ msgstr ""
 
 #: res:///material_maker/windows/material_editor/material_editor.tscn:195
 msgid "Type:"
-msgstr ""
+msgstr "Тип:"
 
 #: res:///material_maker/windows/material_editor/material_editor.tscn:203
 #: res://addons/material_maker/nodes/tex3d_apply.mmg
@@ -1620,10 +1622,13 @@ msgstr "Швы"
 msgid "The number of rows"
 msgstr ""
 
+# Или "Блоки:"
 #: res://addons/material_maker/nodes/arc_pavement.mmg
+#, fuzzy
 msgid "Bricks:"
 msgstr "Кирпичи:"
 
+# Или "Блоки"
 #: res://addons/material_maker/nodes/arc_pavement.mmg
 #: res://addons/material_maker/nodes/bricks.mmg
 #: res://addons/material_maker/nodes/bricks2.mmg
@@ -2477,6 +2482,7 @@ msgstr ""
 msgid "Generates different bricks patterns, with many useful outputs."
 msgstr ""
 
+# Или "Шаблон"
 #: res://addons/material_maker/nodes/bricks.mmg
 #: res://addons/material_maker/nodes/bricks2.mmg
 #: res://addons/material_maker/nodes/bricks_nontileable.mmg
@@ -2485,8 +2491,9 @@ msgstr ""
 #: res://addons/material_maker/nodes/pattern.mmg
 #: res://addons/material_maker/nodes/polycurve.mmg
 #: res://material_maker/library/base.json
+#, fuzzy
 msgid "Pattern"
-msgstr ""
+msgstr "Паттерн"
 
 #: res://addons/material_maker/nodes/bricks.mmg
 #: res://addons/material_maker/nodes/bricks2.mmg
@@ -2615,7 +2622,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/bricks_uneven2.mmg
 #: res://addons/material_maker/nodes/bricks_uneven3.mmg
 msgid "Bevel map"
-msgstr ""
+msgstr "Карта фаски"
 
 #: res://addons/material_maker/nodes/bricks.mmg
 #: res://addons/material_maker/nodes/bricks2.mmg
@@ -2809,12 +2816,12 @@ msgstr ""
 #: res://addons/material_maker/nodes/tex3d_voronoi.mmg
 #: res://addons/material_maker/nodes/voronoi.mmg
 msgid "Randomness"
-msgstr ""
+msgstr "Хаотичность"
 
 #: res://addons/material_maker/nodes/bricks_uneven.mmg
 #: res://addons/material_maker/nodes/bricks_uneven2.mmg
 msgid "The randomness of the pattern"
-msgstr ""
+msgstr "Хаотичность узора"
 
 #: res://addons/material_maker/nodes/bricks_uneven3.mmg
 msgid "Uneven Bricks 2"
@@ -2830,7 +2837,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/brightness_contrast.mmg
 msgid "Brightness/Contrast"
-msgstr ""
+msgstr "Яркость/Контраст"
 
 #: res://addons/material_maker/nodes/brightness_contrast.mmg
 msgid "Adjusts the Brightness and Contrast of its input"
@@ -4102,7 +4109,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/tex3d_fbm.mmg
 #: res://material_maker/library/base.json
 msgid "Noise"
-msgstr ""
+msgstr "Шум"
 
 #: res://addons/material_maker/nodes/dirt.mmg
 msgid "The type of dirt noise to generate"
@@ -4551,8 +4558,9 @@ msgid "Base rotation of the gradients"
 msgstr ""
 
 #: res://addons/material_maker/nodes/fill_to_gradient.mmg
+#, fuzzy
 msgid "Random Rotation"
-msgstr ""
+msgstr "Случайное вращение"
 
 #: res://addons/material_maker/nodes/fill_to_gradient.mmg
 msgid "Rotation randomization of each gradient"
@@ -5453,9 +5461,11 @@ msgstr ""
 msgid "The offset from the center"
 msgstr ""
 
+# Или "отзеркалить стороны"
 #: res://addons/material_maker/nodes/mirror.mmg
+#, fuzzy
 msgid "Flip sides"
-msgstr ""
+msgstr "Повернуть стороны"
 
 #: res://addons/material_maker/nodes/mirror.mmg
 msgid "Shows the mirrored image"
@@ -5480,7 +5490,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/morphology2.mmg
 msgid "resolution"
-msgstr ""
+msgstr "разрешение"
 
 #: res://addons/material_maker/nodes/morphology2.mmg
 msgid "Resolution of the generated image"
@@ -6310,8 +6320,9 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/perlin.mmg
 #: res://addons/material_maker/nodes/wavelet_noise.mmg
+#, fuzzy
 msgid "Value Noise"
-msgstr ""
+msgstr "Значение шума"
 
 #: res://addons/material_maker/nodes/perlin.mmg
 #: res://addons/material_maker/nodes/wavelet_noise.mmg
@@ -6414,7 +6425,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/sdline2.mmg
 #: res://material_maker/library/base.json
 msgid "Profile"
-msgstr ""
+msgstr "Профиль"
 
 #: res://addons/material_maker/nodes/profile.mmg
 msgid "Style"
@@ -9677,7 +9688,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/wavelet_noise.mmg
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: res://addons/material_maker/nodes/wavelet_noise.mmg
 msgid "Add 1"
@@ -9753,7 +9764,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/weave2.mmg
 msgid "Horizontal mask"
-msgstr ""
+msgstr "Горизонтальная маска"
 
 #: res://addons/material_maker/nodes/weave2.mmg
 msgid "Mask for horizontal stripes"
@@ -9761,7 +9772,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/weave2.mmg
 msgid "Vertical mask"
-msgstr ""
+msgstr "Вертикальная маска"
 
 #: res://addons/material_maker/nodes/weave2.mmg
 msgid "Mask for vertical stripes"
@@ -9824,7 +9835,7 @@ msgstr ""
 
 #: res://material_maker/library/base.json
 msgid "From2D"
-msgstr ""
+msgstr "Из2D"
 
 #: res://material_maker/library/base.json
 msgid "Generic"
@@ -9913,7 +9924,7 @@ msgstr "В размер"
 
 #: res://material_maker/library/base.json
 msgid "To Color"
-msgstr "В цыет"
+msgstr "В цвет"
 
 #: res://material_maker/library/base.json
 msgid "To random grey"
@@ -9943,9 +9954,7 @@ msgstr ""
 msgid "WarpDilation"
 msgstr ""
 
-# Или рабочее окружение (вроде по переводчику что сейчас, но сомневаюсь)
 #: res://material_maker/library/base.json
-#, fuzzy
 msgid "Workflow"
 msgstr "Рабочий процесс"
 
@@ -10019,21 +10028,27 @@ msgstr "Свой шейдер"
 msgid "Reroute"
 msgstr ""
 
+# Или "Переключить"
 #: res://material_maker/library/base.json
+#, fuzzy
 msgid "Switch"
-msgstr ""
+msgstr "Переключение"
 
 #: res://material_maker/library/base.json
 msgid "Remote"
 msgstr ""
 
+# Или "Комментировать"
 #: res://material_maker/library/base.json
+#, fuzzy
 msgid "Comment"
-msgstr ""
+msgstr "Комментарий"
 
+# Или "Отлаживать"
 #: res://material_maker/library/base.json
+#, fuzzy
 msgid "Debug"
-msgstr ""
+msgstr "Отладка"
 
 #: res://material_maker/library/base.json
 msgid "Advanced"
@@ -10067,9 +10082,11 @@ msgstr ""
 msgid "ArcPavement"
 msgstr ""
 
+# Или оставить исходный английский вариант
 #: res://material_maker/library/base.json
+#, fuzzy
 msgid "Vec3"
-msgstr ""
+msgstr "Век3"
 
 #: res://material_maker/library/base.json
 msgid "SDF2D"
