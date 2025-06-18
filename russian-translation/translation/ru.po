@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: rodzilla@free.fr\n"
 "POT-Creation-Date: 2022-06-26 07:49\n"
-"PO-Revision-Date: 2025-06-17 21:44+0300\n"
+"PO-Revision-Date: 2025-06-18 16:14+0300\n"
 "Last-Translator: Lydex\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -38,7 +38,7 @@ msgstr "Новый материал"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "New paint project"
-msgstr "Новый проект покраски"
+msgstr "Новый покрасочный проект"
 
 #: Menu in res:///material_maker/main_window.gd
 msgid "Load"
@@ -2054,11 +2054,13 @@ msgstr "размер"
 #: res://addons/material_maker/nodes/warp_dilation2_nobuf.mmg
 #: res://addons/material_maker/nodes/warp_dilation_nobuf.mmg
 msgid "Resolution"
-msgstr ""
+msgstr "Разрешение"
 
+# Или "генерируемой"
 #: res://addons/material_maker/nodes/bevel.mmg
+#, fuzzy
 msgid "The resolution of the generated texture"
-msgstr ""
+msgstr "Разрешение сгенерированной текстуры"
 
 #: res://addons/material_maker/nodes/bevel.mmg
 #: res://addons/material_maker/nodes/material_raymarching.mmg
@@ -2836,7 +2838,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/brightness_contrast.mmg
 msgid "Brightness"
-msgstr ""
+msgstr "Яркость"
 
 #: res://addons/material_maker/nodes/brightness_contrast.mmg
 msgid "The Brightness adjustment"
@@ -3455,14 +3457,14 @@ msgstr ""
 #: res://addons/material_maker/nodes/noise_color.mmg
 #: res://addons/material_maker/nodes/noise_white.mmg
 msgid "Grid Size"
-msgstr ""
+msgstr "Размер сетки"
 
 #: res://addons/material_maker/nodes/color_noise.mmg
 #: res://addons/material_maker/nodes/noise.mmg
 #: res://addons/material_maker/nodes/noise_color.mmg
 #: res://addons/material_maker/nodes/noise_white.mmg
 msgid "The grid size"
-msgstr ""
+msgstr "Размер сетки"
 
 #: res://addons/material_maker/nodes/color_noise.mmg
 #: res://addons/material_maker/nodes/noise.mmg
@@ -3474,7 +3476,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/colorize.mmg
 #: res://material_maker/library/base.json
 msgid "Colorize"
-msgstr ""
+msgstr "Раскрасить"
 
 #: res://addons/material_maker/nodes/colorize.mmg
 msgid "Remaps a greyscale image to a custom gradient"
@@ -3985,6 +3987,7 @@ msgstr ""
 msgid "The length of the dilate effect"
 msgstr ""
 
+# Или "Заполнение"
 #: res://addons/material_maker/nodes/dilate.mmg
 #: res://addons/material_maker/nodes/fill.mmg
 #: res://addons/material_maker/nodes/profile.mmg
@@ -4022,7 +4025,7 @@ msgstr "Источник"
 
 #: res://addons/material_maker/nodes/dilate.mmg
 msgid "The optional source for colors"
-msgstr ""
+msgstr "Дополнительный источник для цветов"
 
 #: res://addons/material_maker/nodes/dilate.mmg
 msgid "Shows the dilated image"
@@ -4161,7 +4164,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/edge_detect.mmg
 msgid "Threshold"
-msgstr ""
+msgstr "Порог"
 
 #: res://addons/material_maker/nodes/edge_detect.mmg
 #: res://addons/material_maker/nodes/edge_detect_1.mmg
@@ -4292,7 +4295,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/fbm2.mmg
 #: res://addons/material_maker/nodes/tex3d_fbm.mmg
 msgid "Noise type"
-msgstr ""
+msgstr "Тип шума"
 
 #: res://addons/material_maker/nodes/fbm.mmg
 #: res://addons/material_maker/nodes/fbm2.mmg
@@ -4352,7 +4355,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/fbm.mmg
 #: res://addons/material_maker/nodes/fbm2.mmg
 msgid "Folds"
-msgstr ""
+msgstr "Складки"
 
 #: res://addons/material_maker/nodes/fbm.mmg
 #: res://addons/material_maker/nodes/fbm2.mmg
@@ -4707,11 +4710,13 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/gaussian_blur.mmg
 msgid "Gaussian Blur"
-msgstr ""
+msgstr "Размытие по Гауссу"
 
+# Или с маленькой буквы
 #: res://addons/material_maker/nodes/gaussian_blur.mmg
+#, fuzzy
 msgid "Gaussian blur"
-msgstr ""
+msgstr "Размытие по Гауссу"
 
 #: res://addons/material_maker/nodes/gaussian_blur.mmg
 msgid "Applies a gaussian blur on its input"
@@ -4751,9 +4756,10 @@ msgstr ""
 msgid "Lightness"
 msgstr ""
 
+# Или средний
 #: res://addons/material_maker/nodes/greyscale.mmg
 msgid "Average"
-msgstr ""
+msgstr "Средне"
 
 #: res://addons/material_maker/nodes/greyscale.mmg
 msgid "Luminosity"
@@ -4883,7 +4889,7 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/height_to_offset.mmg
 msgid "Target"
-msgstr ""
+msgstr "Цель"
 
 #: res://addons/material_maker/nodes/height_to_offset.mmg
 msgid "The target value on the heightmap"
@@ -4953,7 +4959,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/kaleidoscope.mmg
 #: res://material_maker/library/base.json
 msgid "Kaleidoscope"
-msgstr ""
+msgstr "Калейдоскоп"
 
 #: res://addons/material_maker/nodes/kaleidoscope.mmg
 msgid "Replicated an angle of the input image several times around the center."
@@ -5016,6 +5022,7 @@ msgstr ""
 msgid "The input image to be transformed"
 msgstr ""
 
+# Или "Фигура"
 #: res://addons/material_maker/nodes/magnify.mmg
 #: res://addons/material_maker/nodes/mesh.mmg
 #: res://addons/material_maker/nodes/refract.mmg
@@ -5024,7 +5031,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/truchet.mmg
 #: res://material_maker/library/base.json
 msgid "Shape"
-msgstr ""
+msgstr "Форма"
 
 #: res://addons/material_maker/nodes/magnify.mmg
 #: res://addons/material_maker/nodes/refract.mmg
@@ -5068,7 +5075,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/material_dynamic.mmg
 #: res://addons/material_maker/nodes/material_tesselated.mmg
 msgid "Transparency"
-msgstr ""
+msgstr "Прозрачность"
 
 #: res://addons/material_maker/nodes/material.mmg
 #: res://addons/material_maker/nodes/material_tesselated.mmg
@@ -5135,11 +5142,11 @@ msgstr ""
 
 #: res://addons/material_maker/nodes/material_3d.mmg
 msgid "3D PBR Material"
-msgstr ""
+msgstr "3D PBR Материал"
 
 #: res://addons/material_maker/nodes/material_3d.mmg
 msgid "World"
-msgstr ""
+msgstr "Мир"
 
 #: res://addons/material_maker/nodes/material_dynamic.mmg
 msgid "Dynamic PBR Material"
@@ -5211,7 +5218,7 @@ msgstr ""
 #: res://addons/material_maker/nodes/sdsmoothboolean.mmg
 #: res://addons/material_maker/nodes/smooth_minmax.mmg
 msgid "Operation"
-msgstr ""
+msgstr "Операция"
 
 #: res://addons/material_maker/nodes/math.mmg
 #: res://addons/material_maker/nodes/math_v3.mmg
